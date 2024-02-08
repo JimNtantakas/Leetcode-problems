@@ -1,4 +1,4 @@
-def Best_Time_to_Buy_and_Sell_Stock_II(prices):
+def maxProfit(prices):
     profit=0
     for i in range(1,len(prices)):
         if prices[i]>prices[i-1]:
