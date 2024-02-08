@@ -5,8 +5,4 @@ def Best_Time_to_Buy_and_Sell_Stock_II(prices):
             profit+=prices[i]-prices[i-1]
     return profit
 
-prices=[5,7,100]
-result=Best_Time_to_Buy_and_Sell_Stock_II(prices)
-print(result)
-    
     
