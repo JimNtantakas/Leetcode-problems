@@ -4,11 +4,9 @@ def canJump(nums):
         return True
     for i in range(len(nums)-1):
         if i>max_jump:
-            return False
-        
+            return False    
         if max_jump<i+nums[i]:
-            max_jump=i+nums[i]
-            
+            max_jump=i+nums[i]   
         if max_jump>=len(nums)-1:
             return True
     return False   
