@@ -55,13 +55,3 @@ def calculate(s):
         else:
             j+=1
     return int(calculations(s))
-            
-            
-            
-    
-#s=" 2-1 *2*4 "
-#s=" 2-1 + 2 "
-s = "(1+(4+5+2)-3)+(6+8)"
-#s="1-(-2)"
-result=calculate(s)
-print(result)
