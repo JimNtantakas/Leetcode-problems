@@ -14,7 +14,7 @@ def deleteDuplicates(head):
             head=head.next
     return start
 
-
+"""
 head=ListNode(1)
 head.next=ListNode(1)
 head.next.next=ListNode(2)
@@ -25,3 +25,4 @@ head=deleteDuplicates(head)
 while head:
     print(head.val)
     head=head.next
+"""
