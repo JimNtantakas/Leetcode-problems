@@ -23,6 +23,3 @@ def mySqrt(x):
     
     
     
-x=int(input("give number: "))
-result=mySqrt(x)
-print(result,math.sqrt(x)) 
