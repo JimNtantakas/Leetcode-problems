@@ -3,8 +3,6 @@ class ListNode(object):
         self.val = val
         self.next = next
 
-
-
 def deleteDuplicates(head):
     start=head
     while head and head.next:
